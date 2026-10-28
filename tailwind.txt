@@ -1,0 +1,5 @@
+Tailwind:inbuild classes
+html: link of tailwind
+mx:left,right
+my:bottom,top
+tailwind.config.js
