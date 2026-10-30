@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learnmore</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <div class="flex justify-between text-sm text-violet-900 font-bold p-4 bg-violet-100">
+        <img src="./images/kba logo.jpg" alt="KBA Logo" class="w-10 h-10">
+        <div class="flex gap-6 list-none">
+            <li><a href="./home.html">Home</a></li>
+            <li><a href="./courses.html">Courses</a></li>
+            <li><a href="./contactus.html">Contact Us</a></li>
+            <li><a href="./addcourse.html">Add Course</a></li>
+            <li><a href="./signup.html">Logout</a></li>
+        </div>
+    </div>
+    <p class="ml-80 mt-7 font-bold text-xs">Back to courses</p>
+    <div class="w-150 h-130 bg-violet-100 m-auto mt-5 shadow-lg">
+        <img src="" alt="Course Thumbnail" class="text-xs font-semibold">
+        <div class="mt-40 flex">
+            <p class="font-bold text-violet-900 pl-3">s122</p>
+            <p class="pl-90 text-red-600 font-bold mt-3">Rs.15000</p>
+            <input type="button" value="Add to Cart" class="bg-violet-600 rounded-sm ml-3 text-center text-xs w-20 text-purple-200">
+        </div>
+        <div>
+            <p class="pl-3 font-bold text-violet-900">Description</p>
+            <p class="pl-3 text-xs font-semibold mt-3">11q</p>
+            <p class="font-bold pl-3 text-violet-900 mt-3">Prerequisities</p>
+            <div class="pl-8 text-xs font-semibold mt-3">
+                <li>Basic understanding of blockchain technology.</li>
+                <li>Familiarity with programming languages</li>
+                <li>Internet Access</li>
+            </div>
+            <p class="text-violet-900 pl-3 font-bold mt-3">Features</p>
+            <div class="pl-8 text-xs font-semibold mt-3">
+                <li>40 hours of content.</li>
+                <li>Certificate of Completion</li>
+                <li>Access to community forums</li>
+                <li>Downloadable resourses</li>
+                <li>24/7 support</li>
+            </div>
+        </div>
+
+    </div>
+    <div class="pl-250 flex ">
+        <form action="./update.html">
+    <input type="submit" value="Edit Course" class="bg-blue-700 rounded-3xl w-25 text-xs h-8 text-white font-bold ">
+        </form>
+        
+    <input type="button" value="Remove Course" class="bg-red-600 rounded-3xl w-25 text-xs h-8 text-white font-bold ml-5">
+       
+    </div>
+</body>
+</html>
