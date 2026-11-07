@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Book</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <div class="w-320 h-15 bg-blue-950">
+        <div class="ml-140 pt-3">
+        <a href="./dashborad.html" class="text-white font-bold underline">Home</a>
+        <a href="./viewbook.html" class="text-white pl-4 font-bold underline">View Book</a>
+        <a href="./login.html" class="text-white pl-4 font-bold underline">Logout</a>
+        </div>
+    </div>
+    <div class="max-w-7xl mx-auto px-6 py-10"> 
+        <div class="mb-8">
+            <h2 class="text-3xl font-bold text-slate-800">
+                Explore Our Books
+            </h2>
+
+            <p class="text-gray-500 mt-2">
+                Discover and explore books available in our library.
+            </p>
+        </div>
+        <div class="flex flex-col md:flex-row gap-4 mb-8">
+
+            <input
+                type="text"
+                placeholder="Search by book title or author..."
+                class="bg-white border border-gray-300 rounded-lg px-4 py-3 w-full outline-none">
+
+            <select class="bg-white border border-gray-300 rounded-lg px-4 py-3 md:w-56">
+                <option>All Categories</option>
+                <option>Fiction</option>
+                <option>Technology</option>
+                <option>Science</option>
+                <option>Self Help</option>
+                <option>Biography</option>
+            </select>
+
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+
+            <div class="bg-white rounded-xl shadow-sm overflow-hidden hover:shadow-lg">
+
+                <img src="https://shorturl.at/lyAx7"
+                    class="w-full h-64 object-contain bg-gray-50 p-4"
+                    alt="Pride and Prejudice book cover">
+
+                <div class="p-5">
+
+                    <h3 class="text-lg font-bold text-slate-800">
+                        Pride and Prejudice
+                    </h3>
+
+                    <p class="text-gray-500 text-sm mt-1">Jane Austen</p>
+
+                    <p class="text-sm mt-3">Book ID: BK001</p>
+                    <p class="text-sm">Category: Fiction</p>
+
+                    <div class="flex justify-between items-center mt-4">
+
+                        <span class="text-green-600 text-sm font-semibold">
+                            Available
+                        </span>
+
+                        <span class="text-gray-500 text-sm">
+                            5 Copies
+                        </span>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="bg-white rounded-xl shadow-sm overflow-hidden hover:shadow-lg">
+
+                <img src="https://shorturl.at/gFQdD"
+                    class="w-full h-64 object-contain bg-gray-50 p-4"
+                    alt="The Great Gatsby book cover">
+
+                <div class="p-5">
+
+                    <h3 class="text-lg font-bold text-slate-800">
+                        The Great Gatsby
+                    </h3>
+
+                    <p class="text-gray-500 text-sm mt-1">F. Scott Fitzgerald</p>
+
+                    <p class="text-sm mt-3">Book ID: BK002</p>
+                    <p class="text-sm">Category: Fiction</p>
+
+                    <div class="flex justify-between items-center mt-4">
+
+                        <span class="text-green-600 text-sm font-semibold">
+                            Available
+                        </span>
+
+                        <span class="text-gray-500 text-sm">
+                            3 Copies
+                        </span>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="bg-white rounded-xl shadow-sm overflow-hidden hover:shadow-lg">
+
+                <img src="https://shorturl.at/dfhPh"
+                    class="w-full h-64 object-contain bg-gray-50 p-4"
+                    alt="To Kill a Mockingbird book cover">
+
+                <div class="p-5">
+
+                    <h3 class="text-lg font-bold text-slate-800">
+                        To Kill a Mockingbird
+                    </h3>
+
+                    <p class="text-gray-500 text-sm mt-1">Harper Lee</p>
+
+                    <p class="text-sm mt-3">Book ID: BK003</p>
+                    <p class="text-sm">Category: Fiction</p>
+
+                    <div class="flex justify-between items-center mt-4">
+
+                        <span class="text-red-500 text-sm font-semibold">
+                            Issued
+                        </span>
+
+                        <span class="text-gray-500 text-sm">
+                            0 Copies
+                        </span>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="bg-white rounded-xl shadow-sm overflow-hidden hover:shadow-lg">
+
+                <img src="https://shorturl.at/uEzr4"
+                    class="w-full h-64 object-contain bg-gray-50 p-4"
+                    alt="1984 book cover">
+
+                <div class="p-5">
+
+                    <h3 class="text-lg font-bold text-slate-800">
+                        1984
+                    </h3>
+
+                    <p class="text-gray-500 text-sm mt-1">George Orwell</p>
+
+                    <p class="text-sm mt-3">Book ID: BK004</p>
+                    <p class="text-sm">Category: Fiction</p>
+
+                    <div class="flex justify-between items-center mt-4">
+
+                        <span class="text-green-600 text-sm font-semibold">
+                            Available
+                        </span>
+
+                        <span class="text-gray-500 text-sm">
+                            4 Copies
+                        </span>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="bg-white rounded-xl shadow-sm overflow-hidden hover:shadow-lg">
+
+                <img src="https://shorturl.at/SOLce"
+                    class="w-full h-64 object-contain bg-gray-50 p-4"
+                    alt="The Alchemist book cover">
+
+                <div class="p-5">
+
+                    <h3 class="text-lg font-bold text-slate-800">
+                        The Alchemist
+                    </h3>
+
+                    <p class="text-gray-500 text-sm mt-1">Paulo Coelho</p>
+
+                    <p class="text-sm mt-3">Book ID: BK005</p>
+                    <p class="text-sm">Category: Fiction</p>
+
+                    <div class="flex justify-between items-center mt-4">
+
+                        <span class="text-green-600 text-sm font-semibold">
+                            Available
+                        </span>
+
+                        <span class="text-gray-500 text-sm">
+                            6 Copies
+                        </span>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+            
+                   
+
+              
+                   
+                
+
+
+            
+
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+</body>
+</html>
+</body>
+</html>

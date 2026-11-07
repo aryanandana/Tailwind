@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Return Book</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <div class="flex">
+        <div class="w-80 h-150 bg-blue-950">
+        <img src="./images/campusHIVE.png" alt="CampusHIVE logo" class="w-25 ml-25 mt-9">
+        <div class="flex ml-25">
+        <p class="text-red-500 font-semibold">Campus</p>
+        <p class="text-yellow-600 font-extrabold">HIVE</p>
+        </div>
+        <p class="w-70 h-10 bg-blue-950 ml-2.5 text-center text-1xl font-bold pt-2 mt-10 text-white rounded-md hover:bg-blue-700">
+        <a href="./viewbook.html">View Book</a>
+        </p>
+        <p class="w-70 h-10 bg-blue-950 ml-2.5 text-center text-1xl font-bold pt-2 mt-10 text-white rounded-md hover:bg-blue-700">
+        <a href="./addbook.html">Add Book</a>
+        </p>
+        <p class="w-70 h-10 bg-blue-950 ml-2.5 text-center text-1xl font-bold pt-2 mt-10 text-white rounded-md hover:bg-blue-700">
+        <a href="./issuebook.html">Issue Book</a>
+        </p>
+        <p class="w-70 h-10 bg-blue-950 ml-2.5 text-center text-1xl font-bold pt-2 mt-10 text-white rounded-md hover:bg-blue-700">
+        <a href="./returnbook.html">Return Book</a>
+        </p>
+        <p class="w-70 h-10 bg-blue-950 ml-2.5 text-center text-1xl font-bold pt-2 mt-10 text-white rounded-md hover:bg-blue-700">
+        <a href="./login.html">Logout</a>
+        </p>
+    </div>
+    <div class="flex-1 p-8">
+
+            <h1 class="text-blue-900 text-3xl font-bold ">
+                Return Book
+            </h1>
+            <div class="bg-white rounded-lg shadow-md pt-2">
+                <div class="flex gap-4">
+                <input type="text" placeholder="Enter Student ID or Name" required class="flex-1 h-11 bg-gray-100 border border-gray-300 rounded-md px-4 outline-none focus:border-blue-700">
+                 <button class="w-32 h-11 bg-blue-700 rounded-md font-bold text-white hover:bg-blue-900">
+                    Find
+                    </button>
+            </div>
+    </div>
+            <div class="bg-white rounded-lg shadow-md p-6 mt-5">
+                <h2 class="text-xl font-bold text-blue-950 ">
+                    Student Details
+                </h2>
+                <div class="flex">
+                    <div>
+                        <p class="text-gray-500 text-sm">Student Name</p>
+                        <p class="font-semibold text-gray-800 mt-1">Arya</p>
+                    </div>
+                    <div class="ml-10">
+                        <p class="text-gray-500 text-sm">Student ID</p>
+                        <p class="font-semibold text-gray-800 mt-1">STU001</p>
+                    </div>
+                    <div class="ml-10">
+                        <p class="text-gray-500 text-sm">Department</p>
+                        <p class="font-semibold text-gray-800 mt-1">Computer Application</p>
+                    </div>
+                    <div class="ml-10">
+                        <p class="text-gray-500 text-sm">Email</p>
+                        <p class="font-semibold text-gray-800 mt-1">arya@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-white rounded-lg shadow-md mt-6 p-6">
+               <h2 class="text-xl font-bold text-blue-950 mb-5">
+                    Issued Books
+                </h2>
+                    <table class="w-200 ">
+                            <tr class="w-200 h-15 bg-blue-950 text-white">
+                                <th class="p-4">Book ID</th>
+                                <th class="p-4">Book Name</th>
+                                <th class="p-4">Issue Date</th>
+                                <th class="p-4">Due Date</th>
+                                <th class="p-4">Status</th>
+                                <th class="p-4">Fine( ₹ )</th>
+                                <th class="p-4">Action</th>
+                            </tr>
+                        <tr>
+                            <tr>
+                                <td class="p-4">BK001</td>
+                                <td class="p-4 font-semibold">
+                                    Atomic Habits
+                                </td>
+                                <td class="p-4">01-11-2026</td>
+                                <td class="p-4">15-11-2026</td>
+                                <td class="p-4">
+                                    <span class="bg-green-100 text-green-700 px-3 py-1 rounded-full text-sm">
+                                        Issued
+                                    </span>
+                                </td>
+                                 <td><span class="fine-amount px-10 text-red-500"> ₹0</span></td>
+                                <td class="p-4">
+                                    <button class="bg-blue-700 text-white px-4 py-2 rounded-md hover:bg-blue-900">
+                                        Return
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="p-4">BK002</td>
+                                <td class="p-4 font-semibold">
+                                    The Alchemist
+                                </td>
+                                <td class="p-4">03-11-2026</td>
+                                <td class="p-4">17-11-2026</td>
+                                <td class="p-4">
+                                    <span class="bg-green-100 text-green-700 px-3 py-1 rounded-full text-sm">
+                                        Issued
+                                    </span>
+                                </td>
+                                <td><span class="fine-amount px-10 text-red-500"> ₹0</span></td>
+                                <td class="p-4">
+                                    <button class="bg-blue-700 text-white px-4 py-2 rounded-md hover:bg-blue-900">
+                                        Return
+                                    </button>
+                                </td>
+                            </tr>
+                        </tr>
+                    </table>
+            </div>     
+</body>
+</html>

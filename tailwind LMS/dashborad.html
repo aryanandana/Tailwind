@@ -1,0 +1,193 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-gray-100">
+    <div class="bg-slate-900 text-white px-8 py-5 flex justify-between items-center">
+        <div class=" flex gap-6 ml-120 ">
+            <a href="./dashborad.html" class="text-white hover:text-blue-700 underline">Dashboard</a>
+
+            <a href="./viewbook.html" class="text-white hover:text-blue-700 underline">View Books</a>
+
+            <a href="./login.html" class= " text-white hover:text-blue-700 underline">Logout</a>
+        </div>
+    </div>
+
+    <div class="max-w-7xl mx-auto px-6 py-10">
+        <div class="mb-8">
+            <h2 class="text-3xl font-bold text-slate-800">
+                Welcome! 
+            </h2>
+            <p class="text-gray-500 mt-2">
+                Explore books and manage your library activities.
+            </p>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-10">
+            <div class="bg-white p-6 rounded-xl shadow-sm">
+                <p class="text-gray-500">Total Books</p>
+                <h3 class="text-3xl font-bold text-slate-800 mt-3">
+                    250
+                </h3>
+                <p class="text-sm text-blue-600 mt-2">
+                    Books in library
+                </p>
+            </div>
+            <div class="bg-white p-6 rounded-xl shadow-sm">
+                <p class="text-gray-500">Available Books</p>
+                <h3 class="text-3xl font-bold text-green-600 mt-3">
+                    180
+                </h3>
+                <p class="text-sm text-gray-500 mt-2">
+                    Ready to explore
+                </p>
+            </div>
+            <div class="bg-white p-6 rounded-xl shadow-sm">
+                <p class="text-gray-500">My Issued Books</p>
+                <h3 class="text-3xl font-bold text-blue-600 mt-3">
+                    2
+                </h3>
+                <p class="text-sm text-gray-500 mt-2">
+                    Currently borrowed
+                </p>
+            </div>
+            <div class="bg-white p-6 rounded-xl shadow-sm">
+                <p class="text-gray-500">Overdue Books</p>
+                <h3 class="text-3xl font-bold text-red-500 mt-3">
+                    0
+                </h3>
+                <p class="text-sm text-gray-500 mt-2">
+                    Books past due date
+                </p>
+            </div>
+        </div>
+            <div class="flex justify-between items-center mb-5">
+                <h2 class="text-xl font-bold text-slate-800">
+                    Recently Added Books
+                </h2>
+            </div> 
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="bg-white rounded-xl shadow-sm overflow-hidden">
+                    <img src="https://shorturl.at/SOLce"
+                        class="w-full h-56 object-contain p-4 bg-gray-50"
+                        alt="The Alchemist">
+                    <div class="p-4">
+                        <h3 class="font-bold text-slate-800">
+                            The Alchemist
+                        </h3>
+                        <p class="text-sm text-gray-500 mt-1">
+                            Paulo Coelho
+                        </p>
+                        <p class="text-green-600 text-sm mt-3">
+                            Available
+                        </p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-xl shadow-sm overflow-hidden">
+                    <img src="https://shorturl.at/wiOke"
+                        class="w-full h-56 object-contain p-4 bg-gray-50"
+                        alt="Atomic Habits">
+                    <div class="p-4">
+                        <h3 class="font-bold text-slate-800">
+                            Atomic Habits
+                        </h3>
+                        <p class="text-sm text-gray-500 mt-1">
+                            James Clear
+                        </p>
+                        <p class="text-green-600 text-sm mt-3">
+                            Available
+                        </p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-xl shadow-sm overflow-hidden">
+                    <img src="https://shorturl.at/cxJrY"
+                        class="w-full h-56 object-contain p-4 bg-gray-50"
+                        alt="Clean Code">
+                    <div class="p-4">
+                        <h3 class="font-bold text-slate-800">
+                            Clean Code
+                        </h3>
+                        <p class="text-sm text-gray-500 mt-1">
+                            Robert C. Martin
+                        </p>
+                        <p class="text-green-600 text-sm mt-3">
+                            Available
+                        </p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-xl shadow-sm overflow-hidden">
+                    <img src="https://shorturl.at/uEzr4"
+                        class="w-full h-56 object-contain p-4 bg-gray-50"
+                        alt="1984">
+                    <div class="p-4">
+                        <h3 class="font-bold text-slate-800">
+                            1984
+                        </h3>
+                        <p class="text-sm text-gray-500 mt-1">
+                            George Orwell
+                        </p>
+                        <p class="text-green-600 text-sm mt-3">
+                            Available
+                        </p>
+                    </div>
+                </div>
+            </div>
+        
+        <div class="bg-white rounded-xl shadow-sm p-6">
+            <div class="flex justify-between items-center mb-5">
+                <h2 class="text-xl font-bold text-slate-800">
+                    My Recent Issues
+                </h2>
+            </div>
+            <div class="overflow-x-auto">
+             <table class="w-full text-left">
+            <th>
+                       <tr class="bg-blue-950 text-white text-sm">
+                            <th class="p-4">Book Name</th>
+                            <th class="p-4">Issue Date</th>
+                            <th class="p-4">Due Date</th>
+                            <th class="p-4">Status</th>
+                        </tr>
+                    </th>
+                    <th class="text-sm">
+                        <tr class="border-b">
+                            <td class="p-4 font-semibold">
+                                The Great Gatsby
+                            </td>
+                            <td class="p-4">
+                                01 Nov 2026
+                            </td>
+                            <td class="p-4">
+                                15 Nov 2026
+                            </td>
+                            <td class="p-4 text-green-600 font-semibold">
+                                Active
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 font-semibold">
+                                Atomic Habits
+                            </td>
+                            <td class="p-4">
+                                03 Nov 2026
+                            </td>
+                            <td class="p-4">
+                                17 Nov 2026
+                            </td>
+                            <td class="p-4 text-green-600 font-semibold">
+                                Active
+                            </td>
+                        </tr>
+                    </th>
+                </table>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

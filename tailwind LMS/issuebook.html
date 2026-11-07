@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Issue Book</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <div class="flex">
+        <div class="w-80 h-150 bg-blue-950">
+        <img src="./images/campusHIVE.png" alt="CampusHIVE logo" class="w-25 ml-25 mt-9">
+        <div class="flex ml-25">
+        <p class="text-red-500 font-semibold">Campus</p>
+        <p class="text-yellow-600 font-extrabold">HIVE</p>
+        </div>
+        <p class="w-70 h-10 bg-blue-950 ml-2.5 text-center text-1xl font-bold pt-2 mt-10 text-white rounded-md hover:bg-blue-700">
+        <a href="./viewbook.html">View Book</a>
+        </p>
+        <p class="w-70 h-10 bg-blue-950 ml-2.5 text-center text-1xl font-bold pt-2 mt-10 text-white rounded-md hover:bg-blue-700">
+        <a href="./addbook.html">Add Book</a>
+        </p>
+        <p class="w-70 h-10 bg-blue-950 ml-2.5 text-center text-1xl font-bold pt-2 mt-10 text-white rounded-md hover:bg-blue-700">
+        <a href="./issuebook.html">Issue Book</a>
+        </p>
+        <p class="w-70 h-10 bg-blue-950 ml-2.5 text-center text-1xl font-bold pt-2 mt-10 text-white rounded-md hover:bg-blue-700">
+        <a href="./returnbook.html">Return Book</a>
+        </p>
+        <p class="w-70 h-10 bg-blue-950 ml-2.5 text-center text-1xl font-bold pt-2 mt-10 text-white rounded-md hover:bg-blue-700">
+        <a href="./login.html">Logout</a>
+        </p>
+        </div>
+
+        <!-- content -->
+        <div class="w-250 h-150  rounded-lg shadow-lg">
+            <p class="text-blue-900 text-3xl font-bold ml-6 mt-10">Issue Book</p>
+             
+            <div class="w-220 h-100 bg-white  ml-8 rounded-md shadow-2xl mt-10 ">
+                    <div class="flex">
+                        <div class="ml-6 mt-10">
+                        <p class="font-bold">Student ID/ Name*</p>
+                        <input type="text" placeholder="Enter Student ID or Name" required class="w-100 h-10 bg-slate-300 ps-2 ">
+                        <p class="mt-4 font-bold ">Book title/ISBN *</p>
+                        <input type="text" placeholder="Enter book title or ISBN " class="w-100 h-10 bg-slate-300 ps-2 ">
+                        <p class="font-bold">Issue Date*</p>
+                        <input type="date" required class="w-100 h-10 bg-slate-300  ps-2">
+                        <p class="mt-4 font-bold">Due Date*</p>
+                        <input type="date" required class="w-100 h-10 bg-slate-300 ps-2 "> 
+                        <div class="flex">
+                        <input type="button" value="Issue Book" class="  mt-3 w-30 h-10 rounded-md bg-blue-900 text-white font-semibold hover:bg-blue-950">  
+                        <input type="button" value="Reset" class=" ml-3  mt-3 w-30 h-10 rounded-md bg-blue-900 text-white font-semibold hover:bg-blue-950">
+                        </div>
+                        </div>
+                        <div class="w-100 h-80 bg-green-100 mt-15 ml-6 border-2 border-dotted border-green-300">
+                        <p class="w-10 h-10 bg-green-300 rounded-3xl pl-2 pt-2 m-auto mt-30">✔</p>
+                        <p class="font-bold ml-25">Book Issued Successfully!</p>
+                        <p class="font-bold ml-30">Due Date: 05/07/2026</p>
+                        </div>
+                    </div>
+            </div>
+            
+         </div>
+
+    </div>
+    
